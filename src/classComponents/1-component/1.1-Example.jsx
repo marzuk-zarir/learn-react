@@ -52,10 +52,10 @@ export default class Example extends Component {
      *
      * * Transpile to:
      * React.createElement('div',
-     *  { className="container" },
+     *  { className="container" },[
      *  React.createElement('h1', null, 'lorem heading'),
      *  React.createElement('p', null, 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quidem')
-     * )
+     * ])
      *
      * * Jsx syntax
      * All attribute is camelCase and this is called property (prop[s])
