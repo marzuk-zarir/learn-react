@@ -1,7 +1,8 @@
 import { Component } from 'react'
 import Profile from './small-projects/1-ProfileCard/Profile'
 import Example from './1-component/1.1-Example'
-import Timer from './2-props/2.props'
+import Timer from './2-props/2.1-props'
+import State from './3-state-and-lifecycleMethods/3.1-state'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -37,6 +38,10 @@ export default class ClassComponentRoot extends Component {
                 {/* Project 1 */}
                 <h1>Small Project 1</h1>
                 <Profile />
+
+                {/* States and Lifecycle methods */}
+                <h1>State</h1>
+                <State />
             </div>
         )
     }

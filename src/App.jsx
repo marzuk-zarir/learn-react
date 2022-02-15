@@ -2,7 +2,7 @@ import ClassComponentRoot from './classComponents/ClassComponentRoot'
 
 function App() {
     return (
-        <div>
+        <div className="app">
             <ClassComponentRoot />
         </div>
     )
