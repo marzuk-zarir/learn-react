@@ -3,6 +3,7 @@ import Profile from './small-projects/1-ProfileCard/Profile'
 import Example from './1-component/1.1-Example'
 import Timer from './2-props/2.1-props'
 import State from './3-state-and-lifecycleMethods/3.1-state'
+import Lifecycle from './3-state-and-lifecycleMethods/3.2-lifecycle'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -42,6 +43,8 @@ export default class ClassComponentRoot extends Component {
                 {/* States and Lifecycle methods */}
                 <h1>State</h1>
                 <State />
+                <h1>Lifecycle Methods</h1>
+                <Lifecycle />
             </div>
         )
     }
