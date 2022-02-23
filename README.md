@@ -5,6 +5,8 @@ Topics:
 -   Component
 -   Props
 -   State and Lifecycle methods
+-   Event Handling
+-   Controlled re-render with shouldComponentUpdate()
 
 # How to start
 

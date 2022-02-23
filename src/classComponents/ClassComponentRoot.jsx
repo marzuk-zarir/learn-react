@@ -4,6 +4,8 @@ import Example from './1-component/1.1-Example'
 import Timer from './2-props/2.1-props'
 import State from './3-state-and-lifecycleMethods/3.1-state'
 import Lifecycle from './3-state-and-lifecycleMethods/3.2-lifecycle'
+import Event from './4-event-handling/4.1-event-handling'
+import ControllerReRender from './4-event-handling/4.2-controlled-re-render'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -45,6 +47,12 @@ export default class ClassComponentRoot extends Component {
                 <State />
                 <h1>Lifecycle Methods</h1>
                 <Lifecycle />
+
+                {/* Event handling */}
+                <h1>Event Handling</h1>
+                <Event />
+                <h2>- Controlled Re rendering</h2>
+                <ControllerReRender />
             </div>
         )
     }

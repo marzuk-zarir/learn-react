@@ -67,7 +67,7 @@ export default class extends Component {
                         null nothing happen (Rare use case)
                     </li>
                     <li>
-                        ComponentShouldUpdate(): Boolean - Manually controlled
+                        ShouldComponentUpdate(): Boolean - Manually controlled
                         re-render base on updated props and state. If it return
                         true component will re-render otherwise not (Rare use
                         case)
