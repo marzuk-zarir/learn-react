@@ -6,6 +6,8 @@ import State from './3-state-and-lifecycleMethods/3.1-state'
 import Lifecycle from './3-state-and-lifecycleMethods/3.2-lifecycle'
 import Event from './4-event-handling/4.1-event-handling'
 import ControllerReRender from './4-event-handling/4.2-controlled-re-render'
+import Loop from './5-looping-and-conditional-rendering/5.1-looping'
+import ConditionalRender from './5-looping-and-conditional-rendering/5.2-conditional-rendering'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -53,6 +55,12 @@ export default class ClassComponentRoot extends Component {
                 <Event />
                 <h2>- Controlled Re rendering</h2>
                 <ControllerReRender />
+
+                {/* Conditional rendering and looping */}
+                <h1>Looping</h1>
+                <Loop />
+                <h1>Conditional Rendering</h1>
+                <ConditionalRender />
             </div>
         )
     }

@@ -6,6 +6,7 @@ import { Component } from 'react'
  * * In this case this component call the handler from props but when parent re rendered it will re render
  * * But it's rerender is not necessary so we can use shouldComponentUpdate() lifecycle method
  * note: Small component doesn't need optimization like this component. But larger component should be optimize
+ *
  */
 export default class extends Component {
     shouldComponentUpdate(nextProps) {

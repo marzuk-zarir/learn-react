@@ -7,6 +7,7 @@ Topics:
 -   State and Lifecycle methods
 -   Event Handling
 -   Controlled re-render with shouldComponentUpdate()
+-   Conditional rendering and Looping
 
 # How to start
 
