@@ -8,6 +8,7 @@ import Event from './4-event-handling/4.1-event-handling'
 import ControllerReRender from './4-event-handling/4.2-controlled-re-render'
 import Loop from './5-looping-and-conditional-rendering/5.1-looping'
 import ConditionalRender from './5-looping-and-conditional-rendering/5.2-conditional-rendering'
+import FormHandling from './6-form-handling/6.1-form-handling'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -61,6 +62,10 @@ export default class ClassComponentRoot extends Component {
                 <Loop />
                 <h1>Conditional Rendering</h1>
                 <ConditionalRender />
+
+                {/* Form handling */}
+                <h1>Form Handling</h1>
+                <FormHandling />
             </div>
         )
     }

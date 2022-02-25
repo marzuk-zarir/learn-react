@@ -6,8 +6,9 @@ Topics:
 -   Props
 -   State and Lifecycle methods
 -   Event Handling
--   Controlled re-render with shouldComponentUpdate()
--   Conditional rendering and Looping
+-   Controlled Re-render with shouldComponentUpdate()
+-   Conditional Rendering and Looping
+-   Form Handling
 
 # How to start
 
