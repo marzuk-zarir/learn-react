@@ -11,6 +11,7 @@ Topics:
 -   Form Handling
 -   State Lifting
 -   Higher Order Component
+-   Render Props Pattern
 
 # How to start
 

@@ -10,6 +10,7 @@ import ConditionalRender from './5-looping-and-conditional-rendering/5.2-conditi
 import FormHandling from './6-form-handling/6.1-form-handling'
 import StateLifting from './7-state-lifting/7.1-state-lifting'
 import HOC from './8-higher-order-component/8.1-hoc'
+import RenderProp from './9-render-prop/9.1-render-prop'
 import Profile from './small-projects/1-ProfileCard/Profile'
 
 export default class ClassComponentRoot extends Component {
@@ -76,6 +77,10 @@ export default class ClassComponentRoot extends Component {
                 {/* Higher Order Component */}
                 <h1>Higher Order Component</h1>
                 <HOC />
+
+                {/* Render prop pattern */}
+                <h1>Render Prop Pattern</h1>
+                <RenderProp />
             </div>
         )
     }
