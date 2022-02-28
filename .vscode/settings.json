@@ -1,4 +1,7 @@
 {
     "workbench.colorTheme": "One Dark Pro Darker",
-    "editor.fontFamily": "'IBM Plex Mono', 'JetBrains Mono', monospace"
+    "editor.fontFamily": "'IBM Plex Mono', 'JetBrains Mono', monospace",
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
 }

@@ -9,6 +9,8 @@ Topics:
 -   Controlled Re-render with shouldComponentUpdate()
 -   Conditional Rendering and Looping
 -   Form Handling
+-   State Lifting
+-   Higher Order Component
 
 # How to start
 

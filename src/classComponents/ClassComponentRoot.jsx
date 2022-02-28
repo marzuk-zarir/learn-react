@@ -1,5 +1,4 @@
 import { Component } from 'react'
-import Profile from './small-projects/1-ProfileCard/Profile'
 import Example from './1-component/1.1-Example'
 import Timer from './2-props/2.1-props'
 import State from './3-state-and-lifecycleMethods/3.1-state'
@@ -9,6 +8,9 @@ import ControllerReRender from './4-event-handling/4.2-controlled-re-render'
 import Loop from './5-looping-and-conditional-rendering/5.1-looping'
 import ConditionalRender from './5-looping-and-conditional-rendering/5.2-conditional-rendering'
 import FormHandling from './6-form-handling/6.1-form-handling'
+import StateLifting from './7-state-lifting/7.1-state-lifting'
+import HOC from './8-higher-order-component/8.1-hoc'
+import Profile from './small-projects/1-ProfileCard/Profile'
 
 export default class ClassComponentRoot extends Component {
     state = {
@@ -66,6 +68,14 @@ export default class ClassComponentRoot extends Component {
                 {/* Form handling */}
                 <h1>Form Handling</h1>
                 <FormHandling />
+
+                {/* State lifting */}
+                <h1>State Lifting</h1>
+                <StateLifting />
+
+                {/* Higher Order Component */}
+                <h1>Higher Order Component</h1>
+                <HOC />
             </div>
         )
     }
