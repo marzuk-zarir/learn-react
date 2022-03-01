@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Example from './1-component/1.1-Example'
 import MyContextApi from './10-my-context-api/10.1-my-context-api'
+import ContextApi from './11-context-api/11.1-context-api'
 import Timer from './2-props/2.1-props'
 import State from './3-state-and-lifecycleMethods/3.1-state'
 import Lifecycle from './3-state-and-lifecycleMethods/3.2-lifecycle'
@@ -86,6 +87,10 @@ export default class ClassComponentRoot extends Component {
                 {/* My Context Api */}
                 <h1>My Context Api</h1>
                 <MyContextApi />
+
+                {/* Builtin Context Api */}
+                <h1>Builtin Context Api</h1>
+                <ContextApi />
             </div>
         )
     }

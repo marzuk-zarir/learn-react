@@ -13,6 +13,7 @@ Topics:
 -   Higher Order Component
 -   Render Props Pattern
 -   Custom Context Api
+-   Context Api
 
 # How to start
 
