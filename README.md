@@ -12,6 +12,7 @@ Topics:
 -   State Lifting
 -   Higher Order Component
 -   Render Props Pattern
+-   Custom Context Api
 
 # How to start
 
