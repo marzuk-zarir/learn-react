@@ -1,4 +1,5 @@
 import { Component } from 'react'
+import Profile from '../small-projects/1-ProfileCard/Profile'
 import Example from './1-component/1.1-Example'
 import MyContextApi from './10-my-context-api/10.1-my-context-api'
 import ContextApi from './11-context-api/11.1-context-api'
@@ -13,7 +14,6 @@ import FormHandling from './6-form-handling/6.1-form-handling'
 import StateLifting from './7-state-lifting/7.1-state-lifting'
 import HOC from './8-higher-order-component/8.1-hoc'
 import RenderProp from './9-render-prop/9.1-render-prop'
-import Profile from './small-projects/1-ProfileCard/Profile'
 
 export default class ClassComponentRoot extends Component {
     state = {
