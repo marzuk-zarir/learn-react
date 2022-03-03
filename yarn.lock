@@ -1413,6 +1413,15 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
+"nanoid@npm:^3.3.1":
+  version: 3.3.1
+  resolution: "nanoid@npm:3.3.1"
+  bin:
+    nanoid: bin/nanoid.cjs
+  checksum: 4ef0969e1bbe866fc223eb32276cbccb0961900bfe79104fa5abe34361979dead8d0e061410a5c03bc3d47455685adf32c09d6f27790f4a6898fb51f7df7ec86
+  languageName: node
+  linkType: hard
+
 "negotiator@npm:^0.6.2":
   version: 0.6.3
   resolution: "negotiator@npm:0.6.3"
@@ -1912,6 +1921,7 @@ resolve@^1.22.0:
   resolution: "vite-project@workspace:."
   dependencies:
     "@vitejs/plugin-react": ^1.0.7
+    nanoid: ^3.3.1
     react: ^17.0.2
     react-dom: ^17.0.2
     react-is: ^17.0.2

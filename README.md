@@ -14,6 +14,7 @@ Topics:
 -   Render Props Pattern
 -   Custom Context Api
 -   Context Api
+-   Hooks
 
 # How to start
 
