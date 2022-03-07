@@ -15,6 +15,7 @@ Topics:
 -   Custom Context Api
 -   Context Api
 -   Hooks
+-   React.memo, useCallback, useMemo
 
 # How to start
 

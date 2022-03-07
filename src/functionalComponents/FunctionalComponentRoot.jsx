@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Hooks from './1-hooks/1.1-hooks'
 import UseState from './2-useState/2.1-use-state'
 import UseEffect from './3-useEffect/3.1-use-effect'
+import UseMemoUseCallback from './4-useMemo-and-useCallback/4.1-usememo-and-usecallback'
 
 export default function FunctionalComponentRoot() {
     const [show, setShow] = useState(true)
@@ -18,6 +19,8 @@ export default function FunctionalComponentRoot() {
             <button onClick={() => setShow((show) => !show)}>
                 {show ? 'Hide' : 'Show'} UseEffect Component
             </button>
+            <h1>Use Memo</h1>
+            <UseMemoUseCallback />
         </div>
     )
 }
