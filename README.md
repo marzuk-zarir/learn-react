@@ -14,8 +14,9 @@ Topics:
 -   Render Props Pattern
 -   Custom Context Api
 -   Context Api
--   Hooks
+-   Common Hooks
 -   React.memo, useCallback, useMemo
+-   Ref and Forward Ref
 
 # How to start
 
