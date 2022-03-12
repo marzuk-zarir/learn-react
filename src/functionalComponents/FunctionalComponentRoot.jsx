@@ -3,7 +3,8 @@ import Hooks from './1-hooks/1.1-hooks'
 import UseState from './2-useState/2.1-use-state'
 import UseEffect from './3-useEffect/3.1-use-effect'
 import UseMemoUseCallback from './4-useMemo-and-useCallback/4.1-usememo-and-usecallback'
-import Ref from './5-useRef/5.1-useref'
+import UseRef from './5-useRef/5.1-use-ref'
+import UseReducer from './6-useReducer/use-reducer-root'
 
 export default function FunctionalComponentRoot() {
     const [show, setShow] = useState(true)
@@ -23,7 +24,9 @@ export default function FunctionalComponentRoot() {
             <h1>Use Memo</h1>
             <UseMemoUseCallback />
             <h1>Use Ref</h1>
-            <Ref />
+            <UseRef />
+            <h1>Use Reducer</h1>
+            <UseReducer />
         </div>
     )
 }

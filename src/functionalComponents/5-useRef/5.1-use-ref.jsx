@@ -19,7 +19,7 @@ import Input from './components/Input'
  *
  */
 
-export default function Ref() {
+export default function UseRef() {
     // Ref
     const inputRef = useRef(null)
     const focusHandler = () => {

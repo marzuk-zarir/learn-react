@@ -17,6 +17,7 @@ Topics:
 -   Common Hooks
 -   React.memo, useCallback, useMemo
 -   Ref and Forward Ref
+-   Advance State Management (useReducer)
 
 # How to start
 
