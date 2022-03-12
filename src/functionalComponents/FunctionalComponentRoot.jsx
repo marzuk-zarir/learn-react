@@ -5,6 +5,7 @@ import UseEffect from './3-useEffect/3.1-use-effect'
 import UseMemoUseCallback from './4-useMemo-and-useCallback/4.1-usememo-and-usecallback'
 import UseRef from './5-useRef/5.1-use-ref'
 import UseReducer from './6-useReducer/use-reducer-root'
+import CustomHook from './8-custom-hooks/8.1-custom-hook'
 
 export default function FunctionalComponentRoot() {
     const [show, setShow] = useState(true)
@@ -27,6 +28,8 @@ export default function FunctionalComponentRoot() {
             <UseRef />
             <h1>Use Reducer</h1>
             <UseReducer />
+            <h1>Custom Hook</h1>
+            <CustomHook />
         </div>
     )
 }

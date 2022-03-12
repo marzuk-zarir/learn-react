@@ -18,6 +18,7 @@ Topics:
 -   React.memo, useCallback, useMemo
 -   Ref and Forward Ref
 -   Advance State Management (useReducer)
+-   Custom Hook
 
 # How to start
 
