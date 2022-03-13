@@ -19,6 +19,7 @@ Topics:
 -   Ref and Forward Ref
 -   Advance State Management (useReducer)
 -   Custom Hook
+-   Stylesheet (Inline, CSS Module, Styled component)
 
 # How to start
 

@@ -1,0 +1,21 @@
+.card {
+    background: #f3f3f3;
+    padding: 0.7rem;
+    border: 1px solid indigo;
+    border-radius: 0.7rem;
+}
+
+.heading {
+    font-size: 2rem;
+    font-family: cursive;
+    color: indianred;
+}
+
+.paragraph {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+#test {
+    color: skyblue;
+}
