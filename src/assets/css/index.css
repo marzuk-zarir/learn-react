@@ -27,3 +27,7 @@ body {
 .NavLinks li {
     padding: 0.5rem;
 }
+
+.NavLinks li a {
+    text-decoration: none;
+}

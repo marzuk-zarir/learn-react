@@ -1,17 +1,55 @@
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+import styles from '../assets/css/Navlinks.module.css'
+
+const setActiveClass = ({ isActive }) =>
+    isActive ? styles['active-nav-item'] : ''
 
 export default function NavLinks() {
     return (
         <>
             <ul className="NavLinks">
                 <li>
-                    <Link to="/home">Home</Link>
+                    <Link to="/">Root</Link>
                 </li>
                 <li>
-                    <Link to="/about">About</Link>
+                    <NavLink to="home" className={setActiveClass}>
+                        Home
+                    </NavLink>
                 </li>
                 <li>
-                    <Link to="/posts">Posts</Link>
+                    <NavLink to="about" className={setActiveClass}>
+                        About
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="service/abc" className={setActiveClass}>
+                        Service abc
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="service/def" className={setActiveClass}>
+                        Service def
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="service/abc/hsds" className={setActiveClass}>
+                        Service Anything
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="posts" className={setActiveClass}>
+                        Posts
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="dashboard" className={setActiveClass}>
+                        Dashboard
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to="admin" className={setActiveClass}>
+                        Admin
+                    </NavLink>
                 </li>
             </ul>
         </>
